@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+
+.listItemContainer {
+  list-style-type: none;
+  margin: 10px;
+  width: 70vw;
+  border-bottom: 1px solid #9aa5b1;
+}
+
+@media screen and (max-width: 576px) {
+  .listItemContainer {
+    width: 85%;
+  }
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
